@@ -1,0 +1,24 @@
+# For Google ADK + Vertex AI
+google-cloud-aiplatform[agent-engines]>=1.95.1
+
+# For .env support
+python-dotenv
+
+# For WebSocket server/client
+websockets>=11.0
+
+# For real-time audio recording
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Optional logging improvements
+loguru
+
+# For structured type support
+protobuf>=4.25.0
+
+# (Optional) For working with video (if using OpenCV in future)
+# opencv-python
+
+# Required for Python 3.11 compatibility with sounddevice on Linux
+cffi>=1.15.1
